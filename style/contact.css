@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Text color for better readability */
+    background: url('Untitled design.png') center/cover no-repeat;
+
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    color: #333; /* Text color for the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Text color for the navigation links */
+}
+
+section#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.founder-info,
+.co-founder-info {
+    margin-bottom: 30px;
+}
+
+.founder-info p,
+.co-founder-info p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333; /* Dark background for the footer */
+    padding: 20px;
+    color: white; /* Text color for the footer */
+}
+
+section#contact a {
+    color: #ffcc00; /* Yellow color for the contact link */
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('Untitled design.png') center/cover no-repeat;
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Yellow color, change as needed */
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#reservation {
+    background: #fff;
+    color: #333;
+    padding: 50px 20px;
+}
+
+
+#reservation h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Georgia', serif; /* Change the font family as needed */
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add more styles as needed */

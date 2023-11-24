@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('Untitled design.png') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: white; /* Set text color to white */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section#reservation {
+    padding: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form label,
+form input,
+form button {
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+section#contact {
+    text-align: center;
+}
+
+section#contact a {
+    color: #ffcc00; /* Yellow color for the contact link */
+}
